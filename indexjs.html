@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        .biru-muda{
+            background-color: aqua;
+        }
+        .kMerah{
+            border: 2px solid green;
+            padding: 5px 15px 5px 15px;
+            background-color: red;
+            display: inline;
+        }
+        .kHijau{
+            border: 2px solid green;
+            padding: 5px 15px 5px 15px;
+            background-color: green;
+            display: inline;
+        }
+        .kBiru{
+            border: 2px solid green;
+            padding: 5px 15px 5px 15px;
+            background-color: blue;
+            display: inline;
+        }
+        input{
+            margin-left: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Hello World</h2>
+    <button type="button">Klik Disini</button>
+    <br><br><br>
+    <div id="change-background">
+        <div class="kMerah"></div>
+        <input type="range" name="sMerah" min="0" max="255">
+        <br><br>
+        <div class="kHijau"></div>
+        <input type="range" name="sHijau" min="0" max="255">
+        <br><br>
+        <div class="kBiru"></div>
+        <input type="range" name="sBiru" min="0" max="255">
+    
+    </div>
+
+    <script src="jswarna.js"></script>
+</body>
+</html>
